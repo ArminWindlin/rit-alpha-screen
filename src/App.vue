@@ -8,7 +8,7 @@
     <div class="container" v-if="lang === 'en'">
       <p>Welcome to the first alpha test of Rise in Time.</p>
       <p>This is a very early alpha test. A lot of feature are still missing or need improvement.
-        But it's important to get early feedback as well as to detect bugs as early as possible.</p>
+        But it's important to get early feedback as well as to detect bugs.</p>
       <p>Join the discord channel to stay up to date, talk to other testers, report bugs or suggest features!
       <a href="https://discord.gg/QpS6PD" target="_blank">https://discord.gg/QpS6PD</a></p>
       <p>Please fill the following survey if your done with testing:</p>
