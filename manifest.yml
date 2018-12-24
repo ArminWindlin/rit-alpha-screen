@@ -1,0 +1,9 @@
+---
+applications:
+- name: rit-alpha-screen
+  memory: 64MB
+  routes:
+  - route: rit-alpha-screen.scapp.io
+  instances: 1
+  env:
+    NODE_ENV: production
