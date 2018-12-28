@@ -7,13 +7,15 @@
         </div>
         <div class="container" v-if="lang === 'en'">
             <p>Welcome to the first alpha test of Rise in Time.</p>
-            <p>This is a very early alpha test. A lot of feature are still missing or need improvement.
+            <p>This is a very early alpha. A lot of feature are still missing or need improvement.
                 But it's important to get early feedback as well as to detect bugs.</p>
             <p>Join the discord channel to stay up to date, talk to other testers, report bugs or suggest features!
-                <br><a href="https://discord.gg/QpS6PD" target="_blank">https://discord.gg/QpS6PD</a></p>
-            <p>Please fill the following survey if your done with testing:</p>
+                <br><a href="https://discord.gg/xe3452K" target="_blank">https://discord.gg/QpS6PD</a></p>
+            <p>Please fill the following survey when you're done with testing:
+                <br><a href="https://goo.gl/forms/db1lfJc3eGfBRqs83" target="_blank">https://goo.gl/forms/db1lfJc3eGfBRqs83</a></p>
             <p>The game goal of this alpha round is to reach the victory field on layer 2.
-                The player who conquers that field first will get an entry on the 'Board of Immortality'. </p>
+                The player who conquers that field first will get an entry on the 'Board of Immortality'.</p>
+            <p>Report bugs and exploits immediately and don't abuse them for your own purpose.</p>
             <p>Thanks for testing and have fun!</p>
         </div>
         <div class="container" v-if="lang === 'de'">
@@ -24,9 +26,11 @@
             <p>Verbinde dich mit dem Discord Kanal! Dadurch bleibst du informiert, kannst mit anderen Tester sprechen,
                 Fehler melden oder neue Funktionen vorschlagen.
                 <br><a href="https://discord.gg/QpS6PD" target="_blank">https://discord.gg/QpS6PD</a></p>
-            <p>Bitte füllt diese Umfrage aus wenn ihr fertig seit mit dem Testen:</p>
+            <p>Bitte füllt diese Umfrage aus wenn du fertig bist mit dem Testen:
+                <br><a href="https://goo.gl/forms/db1lfJc3eGfBRqs83" target="_blank">https://goo.gl/forms/db1lfJc3eGfBRqs83</a></p>
             <p>Das Ziel dieser Alpha Runde ist es das Siegesfeld auf Ebene 2 zu erreichen.
-                Der erste Spieler der dieses Feld erobert bekommt ein Eintrag auf dem 'Board of Immortality'. </p>
+                Der erste Spieler der dieses Feld erobert bekommt ein Eintrag auf dem 'Board of Immortality'.</p>
+            <p>Melde Bugs sofort und nutze sie nicht für deine eigenen Zwecke aus.</p>
             <p>Danke fürs Testen und viel Spass beim Spielen!</p>
         </div>
 
@@ -67,14 +71,14 @@
         background: url(./assets/rise_in_time.png) no-repeat;
         background-size: contain;
         width: 613px;
-        height: 124px;
+        height: 200px;
         margin: 0 auto;
     }
 
     @media (max-width: 768px) {
         #logo {
             width: 270px;
-            height: 55px;
+            height: 90px;
         }
     }
 
