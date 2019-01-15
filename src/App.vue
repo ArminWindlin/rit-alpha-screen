@@ -11,12 +11,11 @@
                 But it's important to get early feedback as well as to detect bugs.</p>
             <p>Join the discord channel to stay up to date, talk to other testers, report bugs or suggest features!
                 <br><a href="https://discord.gg/xe3452K" target="_blank">https://discord.gg/QpS6PD</a></p>
-            <p>Please fill the following survey when you're done with testing:
-                <br><a href="https://goo.gl/forms/db1lfJc3eGfBRqs83" target="_blank">https://goo.gl/forms/db1lfJc3eGfBRqs83</a></p>
             <p>The game goal of this alpha round is to reach the victory field on layer 2.
                 The player who conquers that field first will get an entry on the 'Board of Immortality'.</p>
             <p>Report bugs and exploits immediately and don't abuse them for your own purpose.</p>
             <p>Thanks for testing and have fun!</p>
+            <p class="red">The first alpha test is over, but the next will start soon.</p>
         </div>
         <div class="container" v-if="lang === 'de'">
             <p>Willkommen zum ersten Alpha Test von Rise in Time.</p>
@@ -26,15 +25,14 @@
             <p>Verbinde dich mit dem Discord Kanal! Dadurch bleibst du informiert, kannst mit anderen Tester sprechen,
                 Fehler melden oder neue Funktionen vorschlagen.
                 <br><a href="https://discord.gg/QpS6PD" target="_blank">https://discord.gg/QpS6PD</a></p>
-            <p>Bitte füllt diese Umfrage aus wenn du fertig bist mit dem Testen:
-                <br><a href="https://goo.gl/forms/db1lfJc3eGfBRqs83" target="_blank">https://goo.gl/forms/db1lfJc3eGfBRqs83</a></p>
             <p>Das Ziel dieser Alpha Runde ist es das Siegesfeld auf Ebene 2 zu erreichen.
                 Der erste Spieler der dieses Feld erobert bekommt ein Eintrag auf dem 'Board of Immortality'.</p>
             <p>Melde Bugs sofort und nutze sie nicht für deine eigenen Zwecke aus.</p>
             <p>Danke fürs Testen und viel Spass beim Spielen!</p>
+            <p class="red">Der erste Alpha Test ist vorbei, aber der nächste startet schon bald.</p>
         </div>
 
-        <a href="https://riseinti.me">
+        <a href="https://riseintime.org">
             <button class="common white play" @click="lang = 'en'">Play!</button>
         </a>
     </div>
@@ -97,6 +95,10 @@
 
     a:hover {
         text-shadow: 0 0 10px white, 0 0 15px white;
+    }
+    .red {
+        color: red;
+        font-weight: bold;
     }
 
     .container {
