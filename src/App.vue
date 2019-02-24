@@ -13,6 +13,7 @@
                 The team who conquers that field first will get an entry on the
                 <a href="https://boi.riseintime.org" target="_blank">Board of Immortality</a>.</p>
             <p>Report bugs and exploits immediately and don't abuse them for your own purpose.</p>
+            <p>This is an open alpha, so feel free to invite your friends.</p>
             <p>Thanks for testing and have fun!</p>
         </div>
         <div class="container" v-if="lang === 'de'">
@@ -24,6 +25,7 @@
                 Das erste Team das dieses Feld erobert bekommt ein Eintrag auf dem
                 <a href="https://boi.riseintime.org" target="_blank">Board of Immortality</a>.</p>
             <p>Melde Bugs sofort und nutze sie nicht für deine eigenen Zwecke aus.</p>
+            <p>Dies ist eine offener Alpha Test, lade deine Freunde ein.</p>
             <p>Danke fürs Testen und viel Spass beim Spielen!</p>
         </div>
 
