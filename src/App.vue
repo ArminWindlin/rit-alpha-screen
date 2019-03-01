@@ -8,7 +8,7 @@
         <div class="container" v-if="lang === 'en'">
             <p>Welcome to the second alpha test of Rise in Time.</p>
             <p>Join the discord channel to stay up to date, talk to other testers, report bugs or suggest features!
-                <br><a href="https://discord.gg/xe3452K" target="_blank">https://discord.gg/QpS6PD</a></p>
+                <br><a href="https://discord.gg/3QHxSAr" target="_blank">https://discord.gg/QpS6PD</a></p>
             <p>The game goal of this alpha round is to reach the victory field on layer 2.
                 The team who conquers that field first will get an entry on the
                 <a href="https://boi.riseintime.org" target="_blank">Board of Immortality</a>.</p>
@@ -20,7 +20,7 @@
             <p>Willkommen zum zweiten Alpha Test von Rise in Time.</p>
             <p>Verbinde dich mit dem Discord Kanal! Dadurch bleibst du informiert, kannst mit anderen Tester sprechen,
                 Fehler melden oder neue Funktionen vorschlagen.
-                <br><a href="https://discord.gg/QpS6PD" target="_blank">https://discord.gg/QpS6PD</a></p>
+                <br><a href="https://discord.gg/3QHxSAr" target="_blank">https://discord.gg/QpS6PD</a></p>
             <p>Das Ziel dieser Alpha Runde ist es das Siegesfeld auf Ebene 2 zu erreichen.
                 Das erste Team das dieses Feld erobert bekommt ein Eintrag auf dem
                 <a href="https://boi.riseintime.org" target="_blank">Board of Immortality</a>.</p>
